@@ -5,3 +5,6 @@ const titulo = document.querySelector('header h1');
 titulo.addEventListener('click', function() {
     alert('Uhuul!');
 });
+
+//botão
+  <button onclick="alert('Clica Clica Clica!')">Clique Aqui</button>
