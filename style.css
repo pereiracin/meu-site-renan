@@ -43,6 +43,23 @@ p {
     font-size: 1.4rem;
 }
 
+button {
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff;            /* Texto branco */
+    border: 2px solid #cc0000; /* Borda em vermelho */
+    padding: 10px 20px;        /* Espaçamento interno */
+    font-size: 1rem;           /* Tamanho do texto */
+    cursor: pointer;           /* Muda o cursor para indicar clique */
+    border-radius: 4px;        /* Cantos ligeiramente arredondados */
+    transition: 0.3s;          /* Efeito suave ao passar o rato */
+}
+
+/* Efeito ao passar por cima do botão */
+button:hover {
+    background-color: #cc0000; /* Inverte para fundo vermelho */
+    color: #ffffff;
+}
+
 footer {
     background-color: #222222; 
     color: #ffffff;            
