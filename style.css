@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 body {
     background-color: #f4f6f9;
-    color: #333;
+    color: #1a1a1a;           
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -16,9 +16,10 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #4a90e2, #007bff);
-    color: white;
+    background: #000000;      
+    color: #ffffff;          
     padding: 50px 20px;
+    border-bottom: 4px solid #cc0000;
 }
 
 header h1 {
@@ -33,13 +34,14 @@ main {
 }
 
 p {
-    color: #666;
+    color: #333333;           
     font-size: 1.1rem;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #222222; 
+    color: #ffffff;            
     padding: 15px;
     font-size: 0.9rem;
+    border-top: 2px solid #cc0000;  
 }
